@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.3.5'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -9,7 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.6'
-# gem 'sqlite3'
+gem 'sqlite3'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -20,23 +19,6 @@ gem 'jbuilder', '~> 2.5'
 gem "font-awesome-rails"
 gem 'bootstrap-sass'
 gem 'simple_form'
-
-gem 'devise'
-gem 'figaro'
-gem 'pg'
-gem 'redis'
-gem 'jquery-fileupload-rails'
-gem 'omniauth-facebook'
-gem 'money-rails'
-gem "chartkick"
-gem 'webpacker', '~> 3.0'
-
-gem 'remotipart', github: 'mshibuya/remotipart'
-gem 'rails_admin', '>= 1.0.0.rc'
-
-gem 'autoprefixer-rails'
-gem 'simple_form'
-gem 'rails-ujs'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -56,4 +38,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
+source 'https://rubygems.org'
+ruby '2.3.5'
 
