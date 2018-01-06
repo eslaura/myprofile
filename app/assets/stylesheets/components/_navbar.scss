@@ -19,59 +19,12 @@
     padding: 10px 0;
 }
 
-.floating-logo {
-  text-transform: uppercase;
-  font-size: 16px;
-  padding: 25px 0;
-  text-decoration:none;
-  font-family: 'Sarpanch', Helvetica;
-  color: white;
-  z-index: 999999999999;
-  position: fixed;
-  top: 5px;
-  left: calc(50% - 30px);
-  padding: 0;
-  text-decoration: none;
-
-}
-
-.floating-logo:hover {
-  text-decoration: none;
-  color: yellow;
-
-}
-
-.logo {
-  text-transform: uppercase;
-  font-size: 32px;
-  padding: 25px 0;
-  text-decoration:none;
-  font-family: 'Sarpanch', Helvetica;
-  color: black;
-  display: block;
-  &:hover, &:active, &:visited, &:focus {
-    color: black;
-    text-decoration: none;
-  }
-}
-
 .line{
   background-color:black;
   height: 5px;
   width: 70%;
   margin: 0 auto;
   margin-bottom: 5px;
-}
-/* Logo */
-.navbar-brand img {
-  height: 50px;
-}
-
-/* User Avatar */
-.navbar .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
 }
 
 /* Right section */
@@ -81,7 +34,6 @@
   justify-content: space-around;
   width: 70%;
   margin: auto;
-
 }
 
 /* Basic navbar item */
@@ -100,7 +52,7 @@
   border: none;
 }
 .navbar-link:hover {
-  color: pink;
+  color: #214965;
   text-decoration: none;
 }
 
