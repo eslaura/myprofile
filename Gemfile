@@ -29,13 +29,13 @@ gem 'jquery-fileupload-rails'
 gem 'omniauth-facebook'
 gem 'money-rails'
 gem "chartkick"
+gem 'webpacker', '~> 3.0'
 
 gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', '>= 1.0.0.rc'
 
 gem 'autoprefixer-rails'
 gem 'simple_form'
-gem 'webpacker'
 gem 'rails-ujs'
 
 group :development, :test do
