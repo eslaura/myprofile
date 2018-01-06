@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laura Hallam</title>
+    <%= favicon_link_tag "favicon.jpg" %>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="description" content="A creative and passionate web developer. Experienced in working closely with clients and supporting them through the creative process.">
+    <meta name="keywords" content="web,developer,creative,design,build">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
+    <%= render 'shared/frame' %>
     <%= yield %>
-    <%= render 'shared/footer' %>
   </body>
 </html>

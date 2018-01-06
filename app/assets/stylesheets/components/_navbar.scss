@@ -1,6 +1,6 @@
 /* Main navbar */
 .navbar {
-  background: white;
+  background: $background-color;
   // transition: all 0.3s ease;
   height: 110px;
   padding: 0px 30px;
@@ -20,7 +20,7 @@
 }
 
 .line{
-  background-color:black;
+  background-color:$main-color;
   height: 5px;
   width: 70%;
   margin: 0 auto;
@@ -47,12 +47,12 @@
 
 /* Navbar link */
 .navbar-link {
-  color: black;
+  color: $main-color;
   font-size: 10px;
   border: none;
 }
 .navbar-link:hover {
-  color: #214965;
+  color: $main-color;
   text-decoration: none;
 }
 

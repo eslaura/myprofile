@@ -1,0 +1,28 @@
+
+.folk-frame {
+    left: 25px;
+    top: 25px;
+    border-width: 9px;
+}
+
+
+.folk-frame, .folk-frame__logo {
+    bottom: 25px;
+    right: 25px;
+}
+
+.folk-frame {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    right: 60px;
+    bottom: 60px;
+    border: 13px solid $main-color;
+    overflow: hidden;
+    z-index: 2;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
