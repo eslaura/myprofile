@@ -1,27 +1,17 @@
-<div class="navbar-wagon">
+<div class="navbar">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo.png" alt="logo">
+  <a href="/" class="navbar-brand">
+    <!-- <img src="images/logo.png" alt="logo"> -->
   </a>
 
   <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <a href="" class="navbar-wagon-item navbar-wagon-link">About</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Experience</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Projects</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Blog</a>
-
-    <!-- Profile picture with dropdown list -->
-    <div class="navbar-wagon-item">
-      <div class="dropdown">
-        <img src="" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
-        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Log Out</a></li>
-        </ul>
-      </div>
-    </div>
+  <div class="navbar-right hidden-xs hidden-sm">
+    <%= link_to "Home", root_path, class: "navbar-item navbar-link" %>
+    <%= link_to "About", about_path, class: "navbar-item navbar-link" %>
+    <%= link_to "Projects", projects_path, class: "navbar-item navbar-link" %>
+    <%= link_to "Blog", blog_path, class: "navbar-item navbar-link" %>
+    <%= link_to "Contact", contact_path, class: "navbar-item navbar-link" %>
   </div>
 </div>
+
+
