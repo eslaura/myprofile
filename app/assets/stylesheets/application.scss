@@ -3,5 +3,9 @@
  */
 
 @import "components/index";
-@import "bootstrap-sprockets";
-@import "bootstrap";
+
+// External libraries
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
